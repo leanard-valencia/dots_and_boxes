@@ -1,0 +1,670 @@
+body{
+    padding: 0; 
+    margin: 0; 
+    background: linear-gradient(180deg, #1E81C9 0%, #00FFC2 99.99%, #74DBF1 100%);
+    font-family: Tahoma, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    min-height: 100vh;
+  
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    padding-left: 100px;
+
+}
+
+.dot{
+    color: #FBEA50;
+    font-size: 150px;
+    line-height: 40%;
+    padding-top: 70px;
+}
+
+.and{
+    color: white;
+    font-size: 150px;
+    padding-top: -100px;
+    line-height: 70%;
+
+}
+
+.box{
+    font-size: 170px;
+    color: #F44040;
+    line-height: 20%;
+
+}
+
+.line1{
+    position: absolute;
+    width: 159.01px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90.43deg);
+    margin-left: 10px;
+    margin-top: 90px;
+}
+
+.line2{
+    position: absolute;
+    width: 327px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(-180deg);
+    margin-top: 180px;
+    margin-left:90px;
+
+}
+
+.line3{
+    position: absolute;
+    width: 159.01px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(90.43deg);
+    margin-top: 90px;
+    margin-left:128px;
+
+}
+
+.line4{
+    position: absolute;
+    width: 199.01px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(90.43deg);
+    margin-top: 80px;
+    margin-left:320px;
+}
+
+.line5{
+    position: absolute;
+    width: 116px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(180deg);
+    margin-top: 10px;
+    margin-left:90px;
+}
+
+.line6{
+    position: absolute;
+    width: 189px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin-top: 275px;
+    margin-left:220px;
+}
+
+.line7{
+    position: absolute;
+    width: 580px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(180deg);
+    margin-top: 370px;
+    margin-left:10px;
+}
+.line8{
+    position: absolute;
+    width: 190px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(-90deg);
+    margin-top: 465px;
+    margin-left:-10px;
+}
+
+.line9{
+    position: absolute;
+    width: 621px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(-180deg);
+    margin-top: 560px;
+    margin-left:85px;
+}
+
+.line10{
+    position: absolute;
+    width: 282.03px;
+    height: 0px;
+
+    border: 2px solid #FFFFFF;
+    transform: rotate(90.82deg);
+    margin-top: 515px;
+    margin-left:330px;
+}
+
+
+.dot1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 80px;
+    margin-top: 170px;
+}
+
+.dot2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 170px;
+}
+
+.dot3{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 83px;
+    margin-top:4px;
+}
+.dot4{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 200px;
+    margin-top:4px;
+}
+
+.dot5{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 305px;
+    margin-top:170px;
+}
+
+.dot6{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 410px;
+    margin-top:170px;
+}
+
+.dot7{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 412px;
+    margin-top:-20px;
+}
+
+.dot8{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 305px;
+    margin-top:360px;
+}
+
+.dot9{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 5px;
+    margin-top:360px;
+}
+.dot10{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 465px;
+    margin-top:360px;
+}
+.dot11{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 463px;
+    margin-top:550px;
+}
+.dot12{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 462px;
+    margin-top:640px;
+}
+
+.dot13{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 77px;
+    margin-top:550px;
+}
+.dot14{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 77px;
+    margin-top:360px;
+}
+.dot15{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 577px;
+    margin-top:360px;
+}
+.dot16{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 690px;
+    margin-top:550px;
+}
+
+.button{
+    font-family: 'Inter', sans-serif;
+    font-size: 150px;
+
+}
+.button1 {
+    position:absolute;
+    background-color: #F44040;
+    border-radius: 20px;
+    color: white; 
+    width:531px;
+    height: 133px;
+    margin-left: 700px;
+    margin-top: -450px;
+    font-size: 70px;
+    font-weight: bold;
+}
+.button2 {
+    position:absolute;
+    background-color: #F49A11;
+    border-radius: 20px;
+    color: white; 
+    width:531px;
+    height: 133px;
+    margin-left: 700px;
+    margin-top: -280px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #FD9494;
+    color: white;
+}
+  
+.button2:hover {
+    background-color: #F1B65D;
+    color: white;
+}
+
+.button3 {
+    position:absolute;
+    background-color: #F44040;
+    border-radius: 20px;
+    color: white; 
+    width:231px;
+    height: 93px;
+    margin-left: 700px;
+    margin-top: -600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button4 {
+    position:absolute;
+    background-color: #F49A11;
+    border-radius: 20px;
+    color: white; 
+    width:231px;
+    height: 93px;
+    margin-left: 950px;
+    margin-top: -600px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button3:hover {
+    background-color: #FD9494;
+    color: white;
+}
+  
+.button4:hover {
+    background-color: #F1B65D;
+    color: white;
+}
+
+.how{
+    position:absolute;
+    margin-top:-390px;
+    margin-left: 820px;
+}
+
+.how1{
+    position:absolute;
+    margin-top:-330px;
+    margin-left: 500px;
+    padding-right: 80px;
+    padding-left: 170px;
+}
+
+.button5 {
+    position:absolute;
+    background-color: #F44040;
+    border-radius: 20px;
+    color: white; 
+    width:181px;
+    height: 63px;
+    margin-left: 650px;
+    margin-top: -660px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button6 {
+    position:absolute;
+    background-color: #F49A11;
+    border-radius: 20px;
+    color: white; 
+    width:181px;
+    height: 63px;
+    margin-left: 850px;
+    margin-top: -660px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button7 {
+    position:absolute;
+    background-color: #7810FD;
+    border-radius: 20px;
+    color: white; 
+    width:181px;
+    height: 63px;
+    margin-left: 1050px;
+    margin-top: -660px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button5:hover {
+    background-color: #FD9494;
+    color: white;
+}
+  
+.button6:hover {
+    background-color: #F1B65D;
+    color: white;
+}
+
+.button7:hover {
+    background-color: #B982FF;
+    color: white;
+}
+
+.board{
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin-left: 750px;
+    margin-top:-550px ;
+}
+
+.dot17{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 103px;
+    margin-top:50px;
+}
+
+.dot18{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 223px;
+    margin-top:50px;
+}
+
+.dot19{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 343px;
+    margin-top:50px;
+}
+
+.dot20{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 463px;
+    margin-top:50px;
+}
+
+.dot21{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 103px;
+    margin-top:180px;
+}
+
+.dot22{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 223px;
+    margin-top:180px;
+}
+
+.dot23{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 343px;
+    margin-top:180px;
+}
+
+.dot24{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 463px;
+    margin-top:180px;
+}
+
+.dot25{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 103px;
+    margin-top:310px;
+}
+
+.dot26{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 223px;
+    margin-top:310px;
+}
+
+.dot27{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 343px;
+    margin-top:310px;
+}
+
+.dot28{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 463px;
+    margin-top:310px;
+}
+  
+.dot29{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 103px;
+    margin-top:440px;
+}
+
+.dot30{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 223px;
+    margin-top:440px;
+}
+
+.dot31{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 343px;
+    margin-top:440px;
+}
+
+.dot32{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    margin-left: 463px;
+    margin-top:440px;
+}
+
+.ply1{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color:black;
+    margin-top: 520px;
+    margin-left: 50px;
+}
+
+.ply2{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color:black;
+    margin-top: 520px;
+    margin-left: 250px;
+}
+  
+
+.ply3{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color:black;
+    margin-top: 520px;
+    margin-left: 450px;
+}
+  
+  
+  
